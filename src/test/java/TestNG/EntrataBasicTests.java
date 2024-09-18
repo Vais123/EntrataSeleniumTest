@@ -88,7 +88,7 @@ public class EntrataBasicTests {
 	
 @Test(priority = 4)
 	
-	public void goToPropertyManagementResources() // Method for navigation to Resources
+	public void goToPropertyManagementResources() // Method for navigation to Resources and then click on guide
 	{
 		ChromeDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
@@ -103,7 +103,7 @@ public class EntrataBasicTests {
 		act.moveToElement(element).perform();
 		
 		
-		driver.findElement(By.xpath("//body/section[1]/div[14]/div[1]/nav[1]/div[3]/nav[1]/div[1]/a[2]")).click();
+		driver.findElement(By.xpath("//body/section[1]/div[14]/div[1]/nav[1]/div[3]/nav[1]/div[1]/a[2]")).click(); // click on guide event
 		
 		driver.quit();	
 		
