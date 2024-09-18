@@ -4,11 +4,15 @@
 
 I have created 5 test cases using testNG to perform actions like navigate, refresh, back, get url ect
 
-PASSED: goToPropertyManagementResources -> Test Case 1: Verify the mouse hover and click on Guide from Resources is working or not
-PASSED: navigateToPropertyManagement  -> Test Case 2: Verify the mouse hover on Products is working
-PASSED: navigationWindow  -> Test Case 3: Verify Navigation, refresh, back operation and get url functionality 
-PASSED: verifyApplicationTitle -> Test Case 4: Validate the web page title
-PASSED: goToPropertyManagementFromProducts     -> Test Case 5: Verify the Property Management page is open perfectly from Products 
+PASSED: goToPropertyManagementResources    -> Test Case 1: Verify the mouse hover and click on Guide from Resources is working or not
+
+PASSED: navigateToPropertyManagement       -> Test Case 2: Verify the mouse hover on Products is working
+
+PASSED: navigationWindow                   -> Test Case 3: Verify Navigation, refresh, back operation and get url functionality 
+
+PASSED: verifyApplicationTitle             -> Test Case 4: Validate the web page title
+
+PASSED: goToPropertyManagementFromProducts -> Test Case 5: Verify the Property Management page is open perfectly from Products 
 
 
 
